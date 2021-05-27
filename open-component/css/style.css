@@ -1,0 +1,50 @@
+/* Fonts */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+@import url("components/navbar.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/projects.css");
+@import url("components/users.css");
+
+/* Components */
+/* @import url("components/name_of_component.css"); */
+
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: 'Nunito', sans-serif;
+  background-color: #F6F5F8;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  background-color: #F6F5F8;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.row {
+  width: 100%;
+}
+
+.employee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}

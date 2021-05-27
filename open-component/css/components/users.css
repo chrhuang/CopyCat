@@ -1,0 +1,82 @@
+.users {
+  margin-left: 40px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.users .user {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.10);
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.user-info {
+  display: flex;
+}
+
+.user-info p {
+  margin-left: 20px;
+}
+
+.user-info .infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin-left: 20px;
+}
+
+.user-info .infos p {
+  margin: 0;
+}
+
+.user-info .infos .name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.user-info .infos .extra-info {
+  color: lightgrey;
+  font-size: 14px;
+}
+
+.user .description {
+  flex-grow: 1;
+  padding: 0 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  /* max-width: 500px; */
+}
+
+.user .status {
+  padding: 0 20px;
+}
+
+.users .manage {
+  font-size: 30px;
+  color: lightgrey;
+}
+
+.users .manage i {
+  cursor: pointer;
+}
+
+.users .manage .trash {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid lightgrey;
+}
+
+.users .manage i:hover {
+  color: #ec4646;
+}
+
+.users a {
+  text-decoration: none;
+  color: lightgrey;
+}

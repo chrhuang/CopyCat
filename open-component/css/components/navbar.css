@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo h1 {
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navigations .tab {
+  padding: 33px 0;
+  margin: 0 15px;
+  color: black;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.navigations .active {
+  border-bottom: 3px solid #ec4646;
+  opacity: 0.7 !important;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.navbar .user {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .user a {
+  color: lightgrey;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.navbar .user a:hover {
+  color: #ec4646;
+}

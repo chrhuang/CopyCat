@@ -1,0 +1,31 @@
+.projects {
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.10);
+  border-radius: 20px;
+  padding: 20px;
+  white-space: nowrap;
+  height: 100%;
+}
+
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.project p {
+  margin-left: 15px;
+}
+
+.projects .active {
+  background-color: #F1F4F5;
+}
+
+.projects h4 {
+  margin-left: 20px;
+  color: lightgrey;
+}
